@@ -15,8 +15,4 @@ Spree::Admin::ProductsController.class_eval do
     end
   end
 
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> bfc2e78040b028bed2b967b431114a9948b5a8c3
