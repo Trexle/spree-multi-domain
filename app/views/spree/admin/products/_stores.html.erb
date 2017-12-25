@@ -2,7 +2,7 @@
   <%= f.field_container :stores, class: ['form-group'] do %>
     <%= f.label :store_ids, Spree.t(:stores) %>
     <% if can? :modify, Spree::Store %>
-      <%= f.text_field :store_ids, value: @product.store_ids.join(',') %>
+      <%= f.hidden_field :store_ids, value: @product.store_ids.join(',') %>
     <% elsif @product.stores.any? %>
       <ul class="text_list">
         <% @product.stores.each do |store| %>
