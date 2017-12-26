@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/Trexle/spree-multi-domain.svg?branch=master)](https://travis-ci.org/Trexle/spree-multi-domain)
+
+Trexle Implementation Of A Centeralized Multi-Domain Ecommerce Platform
+=======================================================================
+
 Multi Domain Store
 ==================
 
